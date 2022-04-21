@@ -1,0 +1,53 @@
+// 20220421174434
+// https://raw.githubusercontent.com/2dust/v2rayCustomRoutingList/master/custom_routing_rules_whitelist
+
+[
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "domain:yjt365.net",
+      "domain:jzez100.com",
+      "domain:jsmtvip.com",
+    ]
+  },
+  {
+    "type": "field",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private",
+      "geosite:apple@cn",
+      "geosite:google@cn",
+      "geosite:tld-cn"
+    ]
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:geolocation-!cn"
+    ]
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:cn"
+    ]
+  },
+  {
+    "type": "field",
+    "port": "0-65535",
+    "outboundTag": "proxy"
+  }
+]
