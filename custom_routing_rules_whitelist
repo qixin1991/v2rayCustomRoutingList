@@ -1,6 +1,3 @@
-// 20220421174434
-// https://raw.githubusercontent.com/2dust/v2rayCustomRoutingList/master/custom_routing_rules_whitelist
-
 [
   {
     "outboundTag": "direct",
